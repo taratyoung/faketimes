@@ -4,7 +4,7 @@ div {
 
 .main-container {
   display: flex;
-  border: 3px dashed red;
+  /*border: 3px dashed red;*/
 }
 
 .narrative {
@@ -17,16 +17,12 @@ div {
 /*large column start*/
 
 .column.large {
-  border: 4px solid pink;
+  /*border: 4px solid pink;*/
   width: 630px;
 }
 
 .main-story-mother {
-  border: 3px solid magenta;
-}
-
-.lg-col-stories {
-  border: 3px solid magenta;
+  /*border: 3px solid magenta;*/
 }
 
 .img-main-story-mother {
@@ -42,16 +38,42 @@ div {
   font-weight: bold;
   font-size: 40px;
   color: white;
-  text-align: left;
-  margin-left: 20px;
+  /*text-align: left;*/
+  /*margin-left: 20px;*/
+}
+
+.lg-col-stories {
+  /*border: 3px solid magenta;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.story-orca {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.story-orca, h1 {
+  order: 1;
+  display: block;
+}
+
+.story-orca, .narrative {
+  order: 2;
 }
 
 .img-story-orca {
   display: flex;
   background-image: url("../images/img-story-2.png");
   height: 300px;
+  order: 3;
   justify-content: center;
-  flex-direction: column;
+  /*flex: 1 1 300px;*/
+  /*text-align: left;*/
+  /*margin-left: 20px;*/
 }
 
 .img-story-orca span {
@@ -59,16 +81,31 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: left;
-  margin-left: 20px;
+  /*text-align: left;*/
+  /*margin-left: 20px;*/
+}
+
+.story-burger {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.story-burger, h1 {
+  order: 1;
+  display: block;
+}
+
+.story-burger, .narrative {
+  order: 2;
 }
 
 .img-story-burger {
   display: flex;
   background-image: url("../images/img-story-3.png");
   height: 300px;
+  order: 3;
   justify-content: center;
-  flex-direction: column;
 }
 
 .img-story-burger span {
@@ -76,8 +113,8 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: left;
-  margin-left: 20px;
+  /*text-align: left;*/
+  /*margin-left: 20px;*/
 }
 
 
@@ -87,16 +124,16 @@ div {
 /*medium column start*/
 
 .column.medium {
-  border: 4px solid lime;
+  /*border: 4px solid lime;*/
   width: 300px;
 }
 
 .main-story-fbi {
-  border: 3px solid green;
+  /*  border: 3px solid green;*/
 }
 
 .story-cats {
-  border: 3px solid green;
+  /*border: 3px solid green;*/
 }
 
 .img-story-cats {
@@ -112,20 +149,20 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: left;
-  margin-left: 20px;
+  /*text-align: left;*/
+  /*margin-left: 20px;*/
 }
 
 
 /*medium column end*/
 
 .column.small {
-  border: 4px solid lightblue;
+  /*border: 4px solid lightblue;*/
   width: 240px;
 }
 
 .news-bites-img {
-  border: 3px solid blue;
+  /*border: 3px solid blue;*/
 }
 
 
